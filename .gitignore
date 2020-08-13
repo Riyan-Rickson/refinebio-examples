@@ -7,6 +7,9 @@ _site
 .Rproj.user
 .snakemake
 *.nb.html
+data
+plots
+results
 
 # This data is downloaded from another part of the repo in essence
 04-advanced-topics/normalize-own-data/data/GSE39842_RMA_converted.tsv
