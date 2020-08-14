@@ -77,8 +77,8 @@ To start a new analysis, copy and paste the `template/template_example.Rmd` file
 #### File naming conventions
 
 Rename the template file according to what the new analysis' content will be and what analysis group it will belong to.
-In other words, `.Rmd` files are named like `<analysis_module>_<notebook#>_<name_of_analysis>.Rmd`
-For example: `dimension_reduction_01_pca.Rmd` is the first notebook in the dimension reduction group.
+In other words, `.Rmd` files are named like `<analysis_module>_<section/tech>_<notebook#>_<name_of_analysis>.Rmd`
+For example: `dimension_reduction_microarray_01_pca.Rmd` is the first notebook in the dimension reduction group and is in the `02-microarray` section/folder.
 Notebooks numbers should be kept in relative order of `least background knowledge/simple implementation` -> `most background knowledge needed/most complex`.
 
 If the analysis you are adding doesn't fit with any of the existing groups, try to carefully label it with a new group name.
@@ -126,7 +126,7 @@ Each analysis `.Rmd` notebook needs to be entirely self-contained so that a user
 - A `plots` and/or `results` folder should be created by the analysis notebook.  
 - Output results should be `TSV` when possible.  
 - Plots should be saved to `PNG` whenever possible.    
-- To keep file naming consistent, let's not use capitalization and stick to underscores instead of `-` or a space. 
+- To keep file naming consistent, let's not use capitalization and stick to underscores instead of `-` or a space.
 
 #### Chunk naming  
 
