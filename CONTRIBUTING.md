@@ -126,6 +126,7 @@ Each analysis `.Rmd` notebook needs to be entirely self-contained so that a user
 - A `plots` and/or `results` folder should be created by the analysis notebook.  
 - Output results should be `TSV` when possible.  
 - Plots should be saved to `PNG` whenever possible.    
+- To keep file naming consistent, let's not use capitalization and stick to underscores instead of `-` or a space. 
 
 #### Chunk naming  
 
