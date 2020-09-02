@@ -12,6 +12,7 @@ output:
 # Purpose of this analysis
 
 
+⬇️ [**Jump to the analysis code**](#analysis) ⬇️
 
 # How to run this example
 
@@ -149,6 +150,7 @@ From here you can customize this analysis example to fit your own scientific que
 
 ***
 
+<!-- Do not delete this line --> <a name="analysis"></a>
 # {{NAME OF example}}
 
 ## Install libraries
