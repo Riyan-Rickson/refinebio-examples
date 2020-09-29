@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ master, jashapiro/pull-build ]
   pull_request:
     branches: [ master ]
 
@@ -38,6 +38,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: false
+          pull: true
           context: docker
           file: docker/Dockerfile
           tags: ccdl/refinebio-examples:latest
